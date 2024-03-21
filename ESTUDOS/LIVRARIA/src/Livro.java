@@ -5,8 +5,15 @@ public class Livro {
     private double valor;
     private Autor autor;
     
+    
+    public Livro(Autor autor){
+       
+        this.autor = autor;
+        this.isbn = "000-0000-00-000";
+      
+    }
     public Livro(){
-        System.out.println("Novo Livro criado");
+
     }
     public void setValor(double valor)
     {
