@@ -5,8 +5,8 @@ public class RegrasDeDesconto {
 
         autor.setNome("Rodrigo Turri");
 
-        Livro livro = new Livro(autor);
-        livro.setValor(59.90);
+        Livro livro = new MiniLivro(autor);
+        livro.setValor(39.90);
 
         if(!livro.aplicarDesconto(0.3))
         {

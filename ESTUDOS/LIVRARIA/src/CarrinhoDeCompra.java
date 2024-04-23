@@ -9,8 +9,7 @@ public class CarrinhoDeCompra {
         total += livro.getValor();
     }
 
-    public double
-     getTotal(){
+    public double getTotal(){
         return total;
 
      }

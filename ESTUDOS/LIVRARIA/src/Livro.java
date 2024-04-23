@@ -1,4 +1,4 @@
-public class Livro {
+public abstract class Livro {
     private String nome;
     private String descricao;
     private String isbn;
@@ -80,14 +80,8 @@ public class Livro {
     }
    
     public boolean aplicarDesconto(double percentagem){
-        if(percentagem > 0.3)
-            
-        {
-            System.out.println("Desconto não pode ser maior que 30%");
-            return false;      
-        }
-        this.valor -= this.valor* percentagem;
-       return true;
+        
+          return false;      
     }
     boolean temAutor(){
         return this.autor != null;

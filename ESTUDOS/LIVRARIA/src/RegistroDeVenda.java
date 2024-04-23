@@ -16,6 +16,10 @@ public class RegistroDeVenda {
         carrinho.adiciona(ebook);
         carrinho.adiciona(fisico);
 
+        Livro livro = new LivroFisico(autor);
+        livro.setNome("CDI");
+        carrinho.adiciona(livro);
+
         System.out.println("Total " + carrinho.getTotal());
     }
 
