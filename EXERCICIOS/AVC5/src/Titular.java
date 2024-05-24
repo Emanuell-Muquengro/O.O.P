@@ -36,7 +36,7 @@ public class Titular {
         return Objects.hash(numeroCliente);
     }
 
-    // Outros métodos conforme necessário
+
 
     @Override
     public String toString() {

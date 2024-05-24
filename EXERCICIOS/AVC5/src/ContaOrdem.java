@@ -27,7 +27,7 @@ public class ContaOrdem extends ContaDeposito {
     }
     @Override
     public void atualizarSaldo() {
-        // Conta à ordem não tem taxa de juro
+       
     }
     
     }

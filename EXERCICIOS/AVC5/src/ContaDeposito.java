@@ -36,7 +36,7 @@ public abstract class ContaDeposito {
 
     public abstract void atualizarSaldo();
 
-    // Implementar outros métodos conforme necessário
+   
 
     @Override
     public boolean equals(Object obj) {
